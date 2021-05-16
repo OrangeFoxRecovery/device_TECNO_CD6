@@ -133,6 +133,5 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-# Padding
-TW_Y_OFFSET := 90
-TW_H_OFFSET := -90
+# Fix Broken Double-Definition Errors
+BUILD_BROKEN_DUP_RULES := true
